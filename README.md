@@ -78,9 +78,16 @@ This is the easiest and most intuitive if you have license or student account to
 * When got asked to configure the Database, click on the suggestion and browse to your project
   directory `./instance/flaskr.sqlite`
 * Once it is done, you can run your queries and browse all database tables.
-![pycharm pro](./doc/image/pycharm_pro.png)
+  ![pycharm pro](./doc/image/pycharm_pro.png)
 
 #### DBeaver Community Version
+
+This is the most recommended Database Explorer tool, it is totally free. You can download
+at [DBeaver](https://dbeaver.io).
+
+![DBeaver](./doc/image/dbeaver.png)
+
+
 
 #### Visual Studio Code
 
