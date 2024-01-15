@@ -19,6 +19,7 @@ def index():
     ).fetchall()
     return render_template('blog/index.html', posts=posts)
 
+
 @bp.route('/create', methods=('GET', 'POST'))
 @login_required
 def create():
@@ -43,6 +44,7 @@ def create():
             return redirect(url_for('blog.index'))
 
     return render_template('blog/create.html')
+
 
 def get_post(id, check_author=True):
     post = get_db().execute(
@@ -87,6 +89,7 @@ def update(id):
             return redirect(url_for('blog.index'))
 
     return render_template('blog/update.html', post=post)
+
 
 @bp.route('/<int:id>/delete', methods=('POST',))
 @login_required
