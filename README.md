@@ -31,7 +31,7 @@ flask --app flaskr run
 
 # Run with debug mode
 flask --app flaskr run --debug
-# .\instance\flaskr.sqlite is generated
+# ./instance/flaskr.sqlite is generated
 ```
 
 # Database
@@ -85,13 +85,13 @@ This is the easiest and most intuitive if you have license or student account to
 #### Visual Studio Code
 
 * Make sure you have `VSC` installed
-* The extension can be download and install
+* The extension can be downloaded and install
   at [SQLITE](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 
 * `Ctrl+Shift+P`: then type SQLITE Query to open a new query editor
-* Open `sqlite_query.sql` and right click on the query and select run the selected statement.
-* A result window will be poped up for viewing.
-  ![sqlite extention](./doc/image/sqlite.png)
+* Open `sqlite_query.sql` and right-click on the query and select run the selected statement.
+* A result window will be popped up for viewing.
+  ![sqlite extension](./doc/image/sqlite.png)
 
 # Project Structure
 
